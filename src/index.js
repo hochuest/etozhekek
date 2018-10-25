@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {add, multiply} from './math';
-import { t } from 'three';
+//import { t } from 'three';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -13,6 +13,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // Learn more about service workers: http://bit.ly/CRA-PWA
 
 serviceWorker.unregister();
+
 
 
 let num1 = 5, num2 = 10;
